@@ -1,0 +1,65 @@
+Question 1: mean vector (6 d.p.) and covariance matrix (6 d.p.)
+  BHP: 0.000989
+  CSL: 0.000227
+  NAB: 0.000130
+  TCL: 0.000149
+  TLS: 0.000583
+Covariance matrix:
+  0.000303 -0.000012 0.000034 0.000016 -0.000007
+  -0.000012 0.000124 0.000033 0.000037 0.000035
+  0.000034 0.000033 0.000151 0.000039 0.000024
+  0.000016 0.000037 0.000039 0.000099 0.000029
+  -0.000007 0.000035 0.000024 0.000029 0.000072
+
+Question 2: optimal weights as functions of t (reported at t=0.08)
+  BHP: 0.315491
+  CSL: 0.051855
+  NAB: -0.076245
+  TCL: -0.092077
+  TLS: 0.800976
+  Expected return: 0.000767, risk (std): 0.008229
+  Weight(t) = slope * t + intercept
+    BHP: slope=2.252523, intercept=0.135290
+    CSL: slope=-1.317615, intercept=0.157264
+    NAB: slope=-2.243691, intercept=0.103250
+    TCL: slope=-3.458156, intercept=0.184575
+    TLS: slope=4.766939, intercept=0.419621
+
+Question 3: allocation for $1,000,000 (t=0.08)
+  BHP: $315,491.41
+  CSL: $51,855.06
+  NAB: $-76,245.04
+  TCL: $-92,077.40
+  TLS: $800,975.97
+  Portfolio mean return: $767.24
+  Portfolio risk (std): $8,229.43
+
+Question 4: figure saved to figures/question4.svg
+  GMV mean: 0.000455, GMV risk: 0.006538
+
+Question 5a: optimal weights without short selling
+  BHP: 0.286691
+  CSL: 0.000000
+  NAB: 0.000000
+  TCL: 0.000000
+  TLS: 0.713309
+  Expected return: 0.000700, risk (std): 0.007675
+Question 5b: KKT verification
+  Lambda: -2.939540e-06
+  gamma_BHP: 0.000000e+00
+  gamma_CSL: 1.940980e-07
+  gamma_NAB: 1.371715e-05
+  gamma_TCL: 1.060944e-05
+  gamma_TLS: 0.000000e+00
+Question 5c: Compared with Question 3, the constrained portfolio has lower risk and lower expected return.
+
+Question 7a: optimal weights with risk-free asset
+  BHP: 0.257438
+  CSL: -0.015628
+  NAB: -0.120550
+  TCL: -0.171280
+  TLS: 0.620913
+  Risk-free asset weight: 0.429108
+  Expected return: 0.000636, risk (std): 0.006237
+Question 7b: figure saved to figures/question7.svg
+  Market (tangency) portfolio and capital market line are included in the plot.
